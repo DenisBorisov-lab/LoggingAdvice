@@ -1,6 +1,6 @@
 package spring.dao;
 
-import ru.otus.spring.domain.Person;
+import spring.domain.Person;
 
 public interface PersonDao {
 

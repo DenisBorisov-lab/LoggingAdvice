@@ -9,7 +9,7 @@ import org.springframework.stereotype.Component;
 @Component
 public class LoggingAspect {
 
-    @Before("execution(* ru.otus.spring.dao.PersonDaoSimple.*(..))")
+    @Before("execution(* spring.dao.PersonDaoSimple.*(..))")
     public void logBefore(JoinPoint joinPoint) {
         System.out.println("Вызов метода : " + joinPoint.getSignature().getName());
     }

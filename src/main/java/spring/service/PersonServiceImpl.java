@@ -1,8 +1,8 @@
 package spring.service;
 
 import org.springframework.stereotype.Service;
-import ru.otus.spring.dao.PersonDao;
-import ru.otus.spring.domain.Person;
+import spring.dao.PersonDao;
+import spring.domain.Person;
 
 @Service
 public class PersonServiceImpl implements PersonService {
